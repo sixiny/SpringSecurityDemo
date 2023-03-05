@@ -1,21 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springsecurity?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
-    username: root
-    password: ysx52smile...!
-#  redis:
-#    host: 127.0.0.1
-#    port: 6379
-#    password: 123456
-#    jedis:
-#      pool:
-#        max-active: 8
-#        max-wait: -1
-#        max-idle: 500
-#        min-idle: 0
-#    lettuce:
-#      shutdown-timeout: 0
+    url: 
+    username: 
+    password: 
 
 mybatis-plus:
   type-aliases-package: com.ysx.pojo
